@@ -17,7 +17,155 @@
 
     <!-- Style -->
     <link rel="stylesheet" href="static/css/style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>PANIndia</title>
   </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <body>
+    <form action="{{url_for('forms')}}"  method="post" >
+    <div class="row">
+      <div class="column">
+        <div class="card" >
+        <img src="static/images/img.png" alt="Avatar" style="width:100%">
+          <h3>Form Name</h3>
+          <button value="printer_1"  name= "printer_1" class="btn"><i class="fa fa-print"></i> Print</button>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+        <img src="static/images/img.png" alt="Avatar" style="width:100%">
+          <h3>Form Name</h3>
+          <button class="btn"><i class="fa fa-print"></i> Print</button>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+        <img src="static/images/img.png" alt="Avatar" style="width:100%">
+          <h3>Form Name</h3>
+          <button class="btn"><i class="fa fa-print"></i> Print</button>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+        <img src="static/images/img.png" alt="Avatar" style="width:100%">
+          <h3>Form Name</h3>
+          <button class="btn"><i class="fa fa-print"></i> Print</button>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+        <img src="static/images/img.png" alt="Avatar" style="width:100%">
+          <h3>Form Name</h3>
+          <button class="btn"><i class="fa fa-print"></i> Print</button>
+        </div>
+      </div>
+    </div>
+
+   <div class="row">
+      <div class="column">
+        <div class="card">
+        <img src="static/images/img.png" alt="Avatar" style="width:100%">
+          <h3>Form Name</h3>
+          <button class="btn"><i class="fa fa-print"></i> Print</button>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+        <img src="static/images/img.png" alt="Avatar" style="width:100%">
+          <h3>Form Name</h3>
+          <button class="btn"><i class="fa fa-print"></i> Print</button>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+        <img src="static/images/img.png" alt="Avatar" style="width:100%">
+          <h3>Form Name</h3>
+          <button class="btn"><i class="fa fa-print"></i> Print</button>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+        <img src="static/images/img.png" alt="Avatar" style="width:100%">
+          <h3>Form Name</h3>
+          <button class="btn"><i class="fa fa-print"></i> Print</button>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+        <img src="static/images/img.png" alt="Avatar" style="width:100%">
+          <h3>Form Name</h3>
+          <button class="btn"><i class="fa fa-print"></i> Print</button>
+        </div>
+      </div>
+    </div>
+
+    </body>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  max-width: 400px;
+  margin : 15%;
+  background-color: #f1f1f1;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+</style>
